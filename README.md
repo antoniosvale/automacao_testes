@@ -17,3 +17,12 @@ Certifique-se de que o ambiente atenda aos seguintes requisitos:
    ```bash
    git clone https://github.com/antoniosvale/automacao_testes.git
    cd automacao_testes
+
+## Execução
+1. Instale os requisitos do projeto
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Execute o teste de exemplo. Garanta que o Chrome esteja instalado na sua máquina.
+   ```bash
+   python -m pytest -k test_final_exercise_raw.py
