@@ -24,6 +24,6 @@ Certifique-se de que o ambiente atenda aos seguintes requisitos:
    ```
    pip install -r requirements.txt
    ```
-   - Execute o teste de exemplo. Garanta que o Chrome esteja inslado na sua máquina.
+   - Execute o teste de exemplo. Garanta que o Chrome esteja instalado na sua máquina.
    ```
    python -m pytest -k test_final_exercise_raw.py
