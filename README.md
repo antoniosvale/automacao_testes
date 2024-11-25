@@ -19,10 +19,10 @@ Certifique-se de que o ambiente atenda aos seguintes requisitos:
    cd automacao_testes
 
 ## Execução
-   - Instale os requisitos do projeto
+1. Instale os requisitos do projeto
    ```bash
    pip install -r requirements.txt
    ```
-   - Execute o teste de exemplo. Garanta que o Chrome esteja instalado na sua máquina.
+2. Execute o teste de exemplo. Garanta que o Chrome esteja instalado na sua máquina.
    ```bash
    python -m pytest -k test_final_exercise_raw.py
